@@ -3,27 +3,41 @@
 
 We need a web site to put our Unity projects, so we can play them via the web browser
 
-1. Create a GitHub account [https://github.com/](https://github.com/) xxx
+1. Create a [GitHub account](https://github.com/)
 
-2. Download Github Desktop https://desktop.github.com/ 
+2. Download [Github Desktop](https://desktop.github.com/)
 You can use command line for GitHub, but the graphical desktop is easier to use
 
-3. Follow the instructions on https://pages.github.com/ to create a **Project Site**
+3. Create a new public repository. Let's call it FirstGit
 
-4. Use GitHub Desktop to pull (or clone) the new repository you created.
+3. A special file called .gitignore (the name is dot gitignore) tells GitHub 
+not to upload some unnecessary files. Create this file using the web interface, and place the contents
+from [here](https://github.com/github/gitignore/blob/master/Unity.gitignore).
+Having a `.gitignore` reduced the number of files from 1707 to 33 for me!
 
-5. Create a webGL build for your Unity project. Move the directory 
+3. Create another file in the FirstGit repository called "docs/test.html",
+enter "Hello World" in it and commit the file.
 
-2. Repositories need to be created for each project by either the students or staff.
-3. Repositories should include the default unity ‘gitignore’ file, or a customized ‘gitignore’
-file.
-4. Students need to install git and a git client (if not using the command prompt). Github
-desktop includes a mac and windows version of the client.
-5. Students can then either clone the github repository or add a local repository.
-6. Students then create a new unity project in the directory where the repository was cloned.
-7. Upon project creation, students need to open the Edit window > Editor > Version Control
-and have ‘Visible Meta Files’ enabled. In the same directory, students should have Asset
-Serialization set to ‘Force Text’.
-8. Students can then commit and push these changes.
-9. An example unity upload onto Github can be found here:
-https://github.com/ConradDudziak/sample-game
+3. Follow the instructions on [https://pages.github.com/](https://pages.github.com/)
+to create a "Project Site" (not a User or Organizational Site). 
+The Github Pages in Settings should be set to "master branch/docs folder"
+
+3. Check that test.html is accessible from the web.
+The URL is under Settings > GitHub Pages of your repository. URL will be something like
+[https://pisan385.github.io/FirstGit/test.html](https://pisan385.github.io/FirstGit/test.html)
+
+4. Use GitHub Desktop clone the new repository you created.
+This will copy all the files from GitHub to your local computer.
+
+5. Create a Unity project in the repository directory you just created.
+Let's call this project "First".
+
+  - Set Edit > Project Settings > Editor > Version Control > Visible Meta Files
+  - Set Edit > Project Settings > Editor > Asset Serialization > Force Text
+
+6. Create a webGL build for your Unity project. File > Build Settings > WebGL > Build 
+Save it in "docs/firstwebgl" inside your FirstGit repository
+
+7. Commit and Push the files from your local computer to GitHub using Github Desktop
+
+8. Check that your files are accessible on the web

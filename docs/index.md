@@ -1,2 +1,2 @@
 
-Creating and uploading a [Unity poroject to GitHub](unityprojectongithub.md)
+Creating and uploading a [Unity project to GitHub](unityprojectongithub.md)

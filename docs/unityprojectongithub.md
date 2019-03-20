@@ -3,7 +3,7 @@
 
 We need a web site to put our Unity projects, so we can play them via the web browser
 
-1. Create a GitHub account https://github.com/
+1. Create a GitHub account [https://github.com/]
 
 2. Download Github Desktop https://desktop.github.com/ 
 You can use command line for GitHub, but the graphical desktop is easier to use

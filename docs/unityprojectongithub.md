@@ -40,4 +40,5 @@ Save it in "docs/firstwebgl" inside your FirstGit repository
 
 7. Commit and Push the files from your local computer to GitHub using Github Desktop
 
-8. Check that your files are accessible on the web
+8. Check that your project can be played on the web. The URL will be something like [https://pisan385.github.io/FirstGit/firstwebgl](https://pisan385.github.io/FirstGit/firstwebgl/)
+

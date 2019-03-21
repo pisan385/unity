@@ -1,5 +1,5 @@
 
-# Unity Project On GitHub
+# Unity WebGL Build On GitHub
 
 We need a web site to put our Unity projects, so we can play them via the web browser
 

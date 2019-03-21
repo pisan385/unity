@@ -29,7 +29,7 @@ Move the folder to be inside your FirstGit repository
 
 8. Check that your project can be played on the web. The URL will be something like [https://pisan385.github.io/FirstGit/firstwebgl](https://pisan385.github.io/FirstGit/firstwebgl/)
 
-# Unity Prokect on GitHub
+# Unity Project on GitHub
 
 If you will also store your source files for your Unity project on GitHub, 
 you shoud use a `.gitignore` file (the name is dot gitignore) tells GitHub 

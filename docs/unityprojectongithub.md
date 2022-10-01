@@ -30,6 +30,8 @@ We need a web site to put our Unity projects, so we can play them via the web br
 
 9. To test your project locally, you can start a local web server using "python3 -m http.server 7800" and then visit http://localhost:7800/ to see the local files
 
+10. You might need to enable "Decompression Fallback" under Build Settings > Player Settings > Publishing Settings
+
 # Unity Project on GitHub
 
 If you will also store your source files for your Unity project on GitHub,
